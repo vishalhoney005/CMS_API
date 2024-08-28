@@ -1,0 +1,561 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.PL\\Speridian.CMS.PL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\Speridian.CMS.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\Speridian.CMS.BL.csproj",
+        "projectName": "Speridian.CMS.BL",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\Speridian.CMS.BL.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj",
+        "projectName": "Speridian.CMS.DAL",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj",
+        "projectName": "Speridian.CMS.Entities",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj",
+        "projectName": "Speridian.CMS.Exceptions",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj",
+        "projectName": "Speridian.CMS.Helpers",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.DAL\\Speridian.CMS.DAL.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.PL\\Speridian.CMS.PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.PL\\Speridian.CMS.PL.csproj",
+        "projectName": "Speridian.CMS.PL",
+        "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.PL\\Speridian.CMS.PL.csproj",
+        "packagesPath": "C:\\Users\\vishal.honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.PL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vishal.honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\Speridian.CMS.BL.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.BL\\Speridian.CMS.BL.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Entities\\Speridian.CMS.Entities.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Exceptions\\Speridian.CMS.Exceptions.csproj"
+              },
+              "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\vishal.honey\\Documents\\GitHub\\cms_application_project\\Speridian.CMS\\Speridian.CMS.Helpers\\Speridian.CMS.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

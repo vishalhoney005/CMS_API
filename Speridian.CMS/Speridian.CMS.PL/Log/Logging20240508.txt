@@ -1,0 +1,54 @@
+2024-05-08 09:55:15.795 +05:30 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x0020
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderNameCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueUnknown(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.System.Collections.Generic.IDictionary<System.String,Microsoft.Extensions.Primitives.StringValues>.Add(String key, StringValues value)
+   at Program.<>c.<<Main>$>b__0_4(AuthenticationFailedContext context) in C:\Users\vishal.honey\Documents\GitHub\cms_application_project\Speridian.CMS\Speridian.CMS.PL\Program.cs:line 95
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-05-08 09:55:15.942 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x0020
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderNameCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueUnknown(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.System.Collections.Generic.IDictionary<System.String,Microsoft.Extensions.Primitives.StringValues>.Add(String key, StringValues value)
+   at Program.<>c.<<Main>$>b__0_4(AuthenticationFailedContext context) in C:\Users\vishal.honey\Documents\GitHub\cms_application_project\Speridian.CMS\Speridian.CMS.PL\Program.cs:line 95
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-08 09:56:39.090 +05:30 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x0020
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderNameCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueUnknown(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.System.Collections.Generic.IDictionary<System.String,Microsoft.Extensions.Primitives.StringValues>.Add(String key, StringValues value)
+   at Program.<>c.<<Main>$>b__0_4(AuthenticationFailedContext context) in C:\Users\vishal.honey\Documents\GitHub\cms_application_project\Speridian.CMS\Speridian.CMS.PL\Program.cs:line 95
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-05-08 09:56:39.093 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x0020
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderNameCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueUnknown(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.AddValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.System.Collections.Generic.IDictionary<System.String,Microsoft.Extensions.Primitives.StringValues>.Add(String key, StringValues value)
+   at Program.<>c.<<Main>$>b__0_4(AuthenticationFailedContext context) in C:\Users\vishal.honey\Documents\GitHub\cms_application_project\Speridian.CMS\Speridian.CMS.PL\Program.cs:line 95
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Speridian.CMS.PL.props" />
+</Project>

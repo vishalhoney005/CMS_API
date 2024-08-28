@@ -1,0 +1,61 @@
+2024-04-23 11:24:23.228 +05:30 [ERR] Not Found
+2024-04-23 11:39:46.990 +05:30 [ERR] Failed executing DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Menu_InsertUpdate 1,'Classic Burgers',177
+2024-04-23 11:39:47.337 +05:30 [ERR] Procedure or function 'USP_Menu_InsertUpdate' expects parameter '@ImageURL', which was not supplied.
+2024-04-23 11:39:54.844 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Menu_InsertUpdate 1,'Classic Burger',177
+2024-04-23 11:39:55.038 +05:30 [ERR] Procedure or function 'USP_Menu_InsertUpdate' expects parameter '@ImageURL', which was not supplied.
+2024-04-23 11:42:36.464 +05:30 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Menu_InsertUpdate 1,'Classic Burgers',175
+2024-04-23 11:42:36.677 +05:30 [ERR] Procedure or function 'USP_Menu_InsertUpdate' expects parameter '@ImageURL', which was not supplied.
+2024-04-23 11:44:49.010 +05:30 [ERR] Failed executing DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Menu_InsertUpdate 1,'Classic Burgers',175,https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg
+2024-04-23 11:44:49.332 +05:30 [ERR] Incorrect syntax near 'https:'.
+2024-04-23 11:45:44.584 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Menu_InsertUpdate 0,'Classic Burgers',175,https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg
+2024-04-23 11:45:44.767 +05:30 [ERR] Incorrect syntax near 'https:'.
+2024-04-23 11:52:43.185 +05:30 [ERR] Failed executing DbCommand (19ms) [Parameters=[@itno='?' (DbType = Int32), @itname='?' (Size = 15), @rate='?' (DbType = Int32), @imageUrl='?' (Size = 66)], CommandType='"Text"', CommandTimeout='30']
+EXEC EXEC USP_Menu_InsertUpdate @Item_No=@itno, @Item_Name=@itname, @Rate=@rate, @ImageURL=@imageUrl
+2024-04-23 11:52:43.465 +05:30 [ERR] Incorrect syntax near the keyword 'EXEC'.
+2024-04-23 11:53:21.769 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[@itno='?' (DbType = Int32), @itname='?' (Size = 15), @rate='?' (DbType = Int32), @imageUrl='?' (Size = 66)], CommandType='"Text"', CommandTimeout='30']
+EXEC EXEC USP_Menu_InsertUpdate @Item_No=@itno, @Item_Name=@itname, @Rate=@rate, @ImageURL=@imageUrl
+2024-04-23 11:53:21.934 +05:30 [ERR] Incorrect syntax near the keyword 'EXEC'.
+2024-04-23 11:53:58.389 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[@itno='?' (DbType = Int32), @itname='?' (Size = 14), @rate='?' (DbType = Int32), @imageUrl='?' (Size = 66)], CommandType='"Text"', CommandTimeout='30']
+EXEC EXEC USP_Menu_InsertUpdate @Item_No=@itno, @Item_Name=@itname, @Rate=@rate, @ImageURL=@imageUrl
+2024-04-23 11:53:58.535 +05:30 [ERR] Incorrect syntax near the keyword 'EXEC'.
+2024-04-23 15:59:57.510 +05:30 [ERR] Failed executing DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 0, '', 789-012-3456, UPI
+2024-04-23 15:59:57.929 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 16:00:49.944 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 0, '', 789-012-3456, UPI
+2024-04-23 16:00:50.190 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 16:03:22.740 +05:30 [ERR] Failed executing DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 0, '', 789-012-3456, UPI
+2024-04-23 16:03:23.212 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:20:04.191 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 0, '', 789-012-3456, UPI
+2024-04-23 17:20:04.330 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:42:52.528 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 1013, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 17:42:52.818 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:52:47.146 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 1013, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 17:52:47.447 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:53:28.902 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 1013, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 17:53:29.162 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:58:37.434 +05:30 [ERR] Failed executing DbCommand (14ms) [Parameters=[@GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate @GeneratedInvoiceNo OUTPUT, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 17:58:37.703 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 17:59:13.766 +05:30 [ERR] Failed executing DbCommand (14ms) [Parameters=[@GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate @GeneratedInvoiceNo OUTPUT, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 17:59:14.039 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 18:01:14.766 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderItem_InsertUpdate 1013,BBQ Chicken Burger,5
+2024-04-23 18:01:15.020 +05:30 [ERR] Incorrect syntax near 'Chicken'.
+2024-04-23 18:04:00.436 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 1013, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 18:04:00.635 +05:30 [ERR] Incorrect syntax near '-'.
+2024-04-23 18:04:50.134 +05:30 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate 1013, '1/21/2024 12:00:00 AM', 789-012-3456, UPI
+2024-04-23 18:04:50.415 +05:30 [ERR] Incorrect syntax near '-'.

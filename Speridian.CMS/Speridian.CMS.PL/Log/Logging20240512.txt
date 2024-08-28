@@ -1,0 +1,47 @@
+2024-05-12 15:50:01.225 +05:30 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9746026819,@Text=,@Rating=5
+2024-05-12 15:50:01.696 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 15:51:15.854 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9746026819,@Text=,@Rating=5
+2024-05-12 15:51:16.147 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 15:57:07.589 +05:30 [ERR] Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9746026819,@Text=,@Rating=4
+2024-05-12 15:57:07.823 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 16:00:15.181 +05:30 [ERR] Failed executing DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9123456789,@Text=,@Rating=4
+2024-05-12 16:00:15.431 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 16:02:10.969 +05:30 [ERR] Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=7890123456,@Text=,@Rating=4
+2024-05-12 16:02:11.202 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 16:05:21.730 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9746026819,@Text=,@Rating=4
+2024-05-12 16:05:21.941 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-12 21:55:01.583 +05:30 [ERR] The 'string' property 'Feedback.CreatedDate' could not be mapped to the database type 'datetime' because the database provider does not support mapping 'string' properties to 'datetime' columns. Consider mapping to a different database type or converting the property value to a type supported by the database using a value converter. See https://aka.ms/efcore-docs-value-converters for more information. Alternately, exclude the property from the model using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.
+2024-05-12 22:01:15.521 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at lambda_method37(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at lambda_method37(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-12 22:01:15.859 +05:30 [ERR] Data is Null. This method or property cannot be called on Null values.
+2024-05-12 22:03:22.089 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at lambda_method37(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at lambda_method37(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-12 22:03:22.392 +05:30 [ERR] Data is Null. This method or property cannot be called on Null values.

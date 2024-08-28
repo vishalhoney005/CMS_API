@@ -1,0 +1,100 @@
+2024-01-24 00:07:23.619 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_User_RefreshToken_InsertUpdate '@p0','@p1',@p2
+2024-01-24 00:07:23.852 +05:30 [ERR] Procedure or function 'USP_User_RefreshToken_InsertUpdate' expects parameter '@CreatedBy', which was not supplied.
+2024-01-24 00:43:36.765 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_User_RefreshToken_InsertUpdate '@p0','@p1',@p2
+2024-01-24 00:43:37.042 +05:30 [ERR] Invalid object name 'UserRefreshTokens'.
+2024-01-24 01:01:06.772 +05:30 [ERR] Authentication Error
+2024-01-24 01:03:46.862 +05:30 [ERR] Authentication Error
+2024-01-24 01:12:18.619 +05:30 [ERR] Authentication Error
+2024-01-24 01:14:01.505 +05:30 [ERR] Failed executing DbCommand (137ms) [Parameters=[p0='?' (Size = 4000), p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+Exec USP_User_PostLogin '@p0''@p1'
+2024-01-24 01:14:01.691 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'USP_User_PostLogin' expects parameter '@Password', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:06d23363-3af9-44a7-96f9-d9175e6f5bf4
+Error Number:201,State:4,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'USP_User_PostLogin' expects parameter '@Password', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:06d23363-3af9-44a7-96f9-d9175e6f5bf4
+Error Number:201,State:4,Class:16
+2024-01-24 01:14:02.222 +05:30 [ERR] Procedure or function 'USP_User_PostLogin' expects parameter '@Password', which was not supplied.
+2024-01-24 01:14:40.487 +05:30 [ERR] Authentication Error
+2024-01-24 01:18:16.616 +05:30 [ERR] Authentication Error
+2024-01-24 01:20:44.814 +05:30 [ERR] Authentication Error
+2024-01-24 01:20:59.949 +05:30 [ERR] Authentication Error
+2024-01-24 01:21:03.348 +05:30 [ERR] Authentication Error
+2024-01-24 01:26:37.106 +05:30 [ERR] Unable to parse
+2024-01-24 01:27:38.734 +05:30 [ERR] Unable to parse
+2024-01-24 01:34:42.008 +05:30 [ERR] Unable to parse
+2024-01-24 01:36:43.805 +05:30 [ERR] Unable to parse
+2024-01-24 01:37:16.034 +05:30 [ERR] Unable to parse
+2024-01-24 02:07:00.399 +05:30 [ERR] Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Speridian.CMS.PL.Models.Role, Speridian.CMS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Speridian.CMS.Entities.DTO.RoleDto, Speridian.CMS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2024-01-24 02:09:51.388 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-01-24 02:09:52.043 +05:30 [ERR] The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+2024-01-24 02:11:40.767 +05:30 [ERR] Token Refresh Operation Error
+2024-01-24 02:12:30.459 +05:30 [ERR] Token Refresh Operation Error
+2024-01-24 02:24:22.161 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-01-24 02:24:22.711 +05:30 [ERR] The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+2024-01-24 02:24:25.832 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-01-24 02:24:26.208 +05:30 [ERR] The required column 'IsDeleted' was not present in the results of a 'FromSql' operation.
+2024-01-24 02:28:01.978 +05:30 [ERR] Token Refresh Operation Error
+2024-01-24 02:30:53.314 +05:30 [ERR] Failed executing DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_User_RefreshToken_InsertUpdate @p0,@p1,@p2
+2024-01-24 02:30:53.598 +05:30 [ERR] Procedure or function 'USP_User_RefreshToken_InsertUpdate' expects parameter '@INSERT', which was not supplied.

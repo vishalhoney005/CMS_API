@@ -1,0 +1,99 @@
+2024-04-22 12:14:02.703 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:14:03.262 +05:30 [ERR] The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+2024-04-22 12:19:29.652 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:19:30.017 +05:30 [ERR] The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+2024-04-22 12:21:44.453 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:21:44.799 +05:30 [ERR] The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+2024-04-22 12:23:51.590 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:23:52.168 +05:30 [ERR] The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+2024-04-22 12:26:09.607 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:26:09.963 +05:30 [ERR] The required column 'Item_No' was not present in the results of a 'FromSql' operation.
+2024-04-22 12:26:37.512 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Speridian.CMS.PL.Models.CmsDbContext'.
+System.InvalidOperationException: The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-22 12:26:37.863 +05:30 [ERR] The required column 'Customer_Id' was not present in the results of a 'FromSql' operation.
+2024-04-22 14:21:07.262 +05:30 [ERR] Failed executing DbCommand (79ms) [Parameters=[@GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate @GeneratedInvoiceNo OUTPUT, '4/22/2024 8:50:37 AM', 1234567898, Upi
+2024-04-22 14:21:07.515 +05:30 [ERR] Error converting data type nvarchar to int.
+2024-04-22 14:22:20.163 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[@GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate @GeneratedInvoiceNo OUTPUT, '4/22/2024 8:50:37 AM', 1234567898, Upi
+2024-04-22 14:22:20.300 +05:30 [ERR] Error converting data type nvarchar to int.
+2024-04-22 14:23:20.385 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderItem_InsertUpdate 1015,Double Patty Burger,4
+2024-04-22 14:23:20.543 +05:30 [ERR] Incorrect syntax near the keyword 'Double'.
+2024-04-22 14:40:38.983 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderItem_InsertUpdate 1018,BBQ Chicken Burger,4
+2024-04-22 14:40:39.264 +05:30 [ERR] Incorrect syntax near 'Chicken'.
+2024-04-22 15:03:13.704 +05:30 [ERR] Failed executing DbCommand (61ms) [Parameters=[@date='?' (DbType = DateTime), @phone_no='?' (Size = 10), @pay_type='?' (Size = 3), @GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Event_Status_InsertUpdate_UPDATED @Invoice=@GeneratedInvoiceNo OUTPUT, @Date=@date, @Phone_no=@phone_no, @Pay_type=@pay_type
+2024-04-22 15:03:14.148 +05:30 [ERR] Could not find stored procedure 'USP_Event_Status_InsertUpdate_UPDATED'.
+2024-04-22 15:04:24.649 +05:30 [ERR] Failed executing DbCommand (167ms) [Parameters=[@date='?' (DbType = DateTime), @phone_no='?' (Size = 10), @pay_type='?' (Size = 3), @GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderInvoice_InsertUpdate @Invoice=@GeneratedInvoiceNo OUTPUT, @Date=@date, @Phone_no=@phone_no, @Pay_type=@pay_type
+2024-04-22 15:04:25.164 +05:30 [ERR] Procedure or function 'USP_OrderInvoice_InsertUpdate' expects parameter '@Invoice_no', which was not supplied.
+2024-04-22 15:06:58.591 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_OrderItem_InsertUpdate 1019,Double Patty Burger,2
+2024-04-22 15:06:59.075 +05:30 [ERR] Incorrect syntax near the keyword 'Double'.
+2024-04-22 15:20:11.163 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[@gin='?' (DbType = Int32), @item_name='?' (Size = 19), @qty='?' (DbType = Int32), @GeneratedInvoiceNo='?' (Direction = Output) (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+EXEC EXEC USP_OrderItem_InsertUpdate @Invoice_No=@gin, @Item_Name=@item_name, @Qty=@qty
+2024-04-22 15:20:11.584 +05:30 [ERR] Incorrect syntax near the keyword 'EXEC'.
+2024-04-22 16:22:52.824 +05:30 [ERR] Failed executing DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser 2,'john@gmail.com',098765
+2024-04-22 16:22:53.341 +05:30 [ERR] Procedure or function 'USP_Users_InsertUser' expects parameter '@RoleID', which was not supplied.

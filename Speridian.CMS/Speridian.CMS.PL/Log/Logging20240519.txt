@@ -1,0 +1,32 @@
+2024-05-19 13:16:30.075 +05:30 [ERR] Authentication Error
+2024-05-19 13:16:30.329 +05:30 [ERR] Authentication Error
+2024-05-19 13:16:31.012 +05:30 [ERR] Authentication Error
+2024-05-19 13:16:32.708 +05:30 [ERR] Authentication Error
+2024-05-19 13:16:39.022 +05:30 [ERR] Authentication Error
+2024-05-19 13:20:04.261 +05:30 [ERR] Failed executing DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=4567890123,@Text=Amazing food!!,@Rating=5
+2024-05-19 13:20:04.506 +05:30 [ERR] Incorrect syntax near 'food'.
+2024-05-19 13:20:09.449 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=4567890123,@Text=Amazing food!!,@Rating=5
+2024-05-19 13:20:09.632 +05:30 [ERR] Incorrect syntax near 'food'.
+2024-05-19 13:21:45.805 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=7890123456,@Text=amazing food and great service!,@Rating=5
+2024-05-19 13:21:45.951 +05:30 [ERR] Incorrect syntax near 'food'.
+2024-05-19 13:22:54.399 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=2345678901,@Text=amazing food and great service!,@Rating=2
+2024-05-19 13:22:54.523 +05:30 [ERR] Incorrect syntax near 'food'.
+2024-05-19 13:23:04.031 +05:30 [ERR] Failed executing DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=9123456789,@Text=amazing food and great service!,@Rating=4
+2024-05-19 13:23:04.194 +05:30 [ERR] Incorrect syntax near 'food'.
+2024-05-19 13:26:45.718 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=2345678901,@Text=great food fully satisfied with the service as well,@Rating=5
+2024-05-19 13:26:45.834 +05:30 [ERR] Incorrect syntax near 'food'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+2024-05-19 13:27:22.634 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=2345678901,@Text=great food fully satisfied with the service as well,@Rating=5
+2024-05-19 13:27:22.802 +05:30 [ERR] Incorrect syntax near 'food'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+2024-05-19 13:28:09.333 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Feedback_InsertUpdate @Id=0,@PhoneNo=5678901234,@Text=great food fully satisfied with the service as well,@Rating=5
+2024-05-19 13:28:09.455 +05:30 [ERR] Incorrect syntax near 'food'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.

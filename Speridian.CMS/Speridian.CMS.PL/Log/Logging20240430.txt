@@ -1,0 +1,9 @@
+2024-04-30 16:43:38.656 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser 11,'rachel@gmail.com',234567890,1234567890,
+2024-04-30 16:43:38.940 +05:30 [ERR] Incorrect syntax near ','.
+2024-04-30 16:44:30.917 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC USP_Users_InsertUser 0,'akhil@gmail.com','12345678',,'Admin'
+2024-04-30 16:44:31.125 +05:30 [ERR] Incorrect syntax near ','.
+2024-04-30 16:47:34.428 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser 11,'rachel@gmail.com','234567890','1234567890',
+2024-04-30 16:47:34.707 +05:30 [ERR] Incorrect syntax near ','.

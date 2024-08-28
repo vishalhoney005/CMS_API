@@ -1,0 +1,24 @@
+2024-05-02 10:10:00.442 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'vishal@gmail.com','112345678','',''
+2024-05-02 10:10:00.969 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:11:38.531 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'vishal@gmail.com','123456','12345678',''
+2024-05-02 10:11:38.825 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:14:51.898 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'vishal@gmail.com','123456','12345678',''
+2024-05-02 10:14:52.216 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:16:41.135 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'vishal@gmail.com','123456','12345678',''
+2024-05-02 10:16:41.421 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:17:18.878 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'vishal@gmail.com','123456','12345678',''
+2024-05-02 10:17:19.165 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:22:24.235 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'akhil@gmail.com','1234567','12345',''
+2024-05-02 10:22:24.542 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:23:37.660 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'akhil@gmail.com','1234567','123456',''
+2024-05-02 10:23:37.964 +05:30 [ERR] Incorrect syntax near ','.
+2024-05-02 10:26:27.952 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC  USP_Users_InsertUser ,'akhil@gmail.com','1234567','12345',''
+2024-05-02 10:26:28.247 +05:30 [ERR] Incorrect syntax near ','.
